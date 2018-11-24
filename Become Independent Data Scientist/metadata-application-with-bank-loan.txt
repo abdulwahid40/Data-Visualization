@@ -1,0 +1,60 @@
+# Metadata for Application with Bank Loan
+---
+Identifier: '149ae965-7293-4040-b40b-c8a92c79fe6d'
+Name: 'application-with-bank-loan'
+Title: 'Application with Bank Loan'
+Description: 'No. of  Sales, Resale and Refinancing applications with Bank Loans by
+  FY'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Debt'
+  - 'HDB'
+  - 'Housing'
+  - 'Loans'
+  - 'Mortgage'
+  - 'Property'
+  - 'Public Housing'
+Publisher:
+  Name: 'Housing and Development Board'
+  Admin 1:
+    Name: 'Chua Puay Nee'
+    Department: 'ISG'
+    Email: 'chua_puay_nee@hdb.gov.sg'
+  Admin 2:
+    Name: 'Toh Xue Qin'
+    Department: 'HDB'
+    Email: 'toh_xue_qin@hdb.gov.sg'
+Sources:
+  - 'Housing and Development Board'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2006-04-01 to 2016-03-31'
+Last Updated: '2017-03-27T16:03:58.819905'
+Resources:
+  -
+    Identifier: '79b5d8c3-aa39-402a-8160-f1904192b5e7'
+    Title: 'Application with Bank Loan'
+    Url: 'https://storage.data.gov.sg/application-with-bank-loan/resources/application-with-bank-loan-2016-11-07T06-44-02Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-04-01 to 2016-03-31'
+    Last Updated: '2016-11-07T06:44:02.201593'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial Year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'category'
+        Title: 'Category'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_applications'
+        Title: 'No. Of Applications'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Applications'
